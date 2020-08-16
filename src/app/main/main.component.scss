@@ -1,0 +1,259 @@
+ .main {
+  position: absolute;
+  width: 1440px;
+  height: 655px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(90.95deg, #255D8B 2.29%, #3A80BA 96.79%);
+  background-image: url('src/assets/RectangleHeader.svg');
+}
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 183.46px;
+  left: 0px;
+  top: 1323.46px;
+  background: linear-gradient(90.74deg, #255D8B 1.6%, #3A80BA 96.44%);
+  background-image: url('src/assets/RectangleFooter.svg');
+  -webkit-transform: matrix3d(1, 0, 0, -1, 0, 0);
+  transform: matrix3d(1, 0, 0, -1, 0, 0);
+}
+
+.logo {
+  position: absolute;
+  width: 136px;
+  height: 49px;
+  left: 130px;
+  top: 24px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+}
+
+.titleText {
+  position: absolute;
+  width: 586px;
+  height: 118px;
+  left: 130px;
+  top: 121px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.titleSubText {
+  position: absolute;
+  width: 580px;
+  height: 56px;
+  left: 130px;
+  top: 263px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 142%;
+  color: #FFFFFF;
+}
+
+.titleButton {
+  position: absolute;
+  width: 154px;
+  height: 56px;
+  left: 130px;
+  top: 351px;
+  border: none;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+
+.titleButtonText {
+  position: absolute;
+  width: 91px;
+  height: 23px;
+  left: 162px;
+  top: 368px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  text-align: center;
+  color: #3A80BA;
+}
+
+.middleText {
+  position: absolute;
+  width: 580px;
+  height: 78px;
+  left: 430px;
+  top: 671px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+.middleSubText {
+  position: absolute;
+  width: 780px;
+  height: 56px;
+  left: 330px;
+  top: 773px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 142%;
+  text-align: center;
+  color: #7E7E7E;
+}
+
+.itemCardContainer {
+  position: absolute;
+  top: 860px;
+  left: 110px;
+  width: 1300px;
+  height: auto;
+}
+
+.itemCard {
+  position: relative;
+  display: inline-block;
+  width: 380px;
+  height: 323px;
+  margin-left: 20px;
+  top: 9px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 32px;
+}
+
+.itemLogo {
+  position: relative;
+  width: 106px;
+  height: 96px;
+  left: 137px;
+  right: 137px;
+  bottom: 48px;
+  top: 48px;
+  background: linear-gradient(90.95deg, #255D8B 2.29%, #3A80BA 96.79%);
+  background-image: url('src/assets/background.svg');
+}
+
+.logoImg {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  left: 25px;
+  right: 25px;
+  top: 15px;
+  bottom: 25px;
+}
+
+.logoImg>img {
+  width: 100%;
+  height: 100%;
+}
+
+.itemTitle {
+  position: relative;
+  width: 164px;
+  height: 29px;
+  left: 118px;
+  top: 90px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #1A1A1A;
+}
+
+.itemSubTitle {
+  position: relative;
+  width: 316px;
+  height: 46px;
+  left: 32px;
+  top: 105px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  text-align: center;
+  color: #7E7E7E;
+}
+
+.email {
+  position: absolute;
+  width: 579px;
+  height: 64px;
+  left: 431px;
+  top: 1346px;
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: Montserrat;
+  font-size: 24px;
+  z-index: 9;
+}
+
+.subscribeButton {
+  position: absolute;
+  width: 176px;
+  height: 56px;
+  left: 830px;
+  top: 1350.46px;
+  background: #3A80BA;
+  border-radius: 8px;
+  border: none;
+  z-index: 9;
+}
+
+input::placeholder {
+  position: relative;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 162%;
+  color: #B9B9B9;
+  left: 19px;
+}
+
+.subscribeButtonText {
+  position: relative;
+  width: 80px;
+  height: 23px;
+  left: 43px;
+  top: 1px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 142%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.phone {
+  position: absolute;
+  width: 243px;
+  height: 530px;
+  left: 950px;
+  top: 78px;
+  background-image: url('src/assets/phoneScreen.png');
+}

@@ -1,3 +1,35 @@
-<p>
-  main works! {{ str1 }}
-</p>
+<div class='main'>
+</div>
+<div class='logo'>{{ logoText }}</div>
+<div class='titleText'>
+  <b>{{ titleTextStart }}</b>
+  {{ titleTextEnd }}
+</div>
+<div class='titleSubText'>{{ titleSubText }}</div>
+<button class='titleButton'>
+</button>
+
+<div class='phone'></div>
+<div class='titleButtonText'> {{ titleButtonText }}  </div>
+<div class='middleText'> Why <b>{{ middleText }}</b> AppCo? </div>
+<div class='middleSubText'> {{ titleSubText }}  </div>
+
+<div class="itemCardContainer">
+  <div class='itemCard' *ngFor="let item of items">
+    <div class='itemLogo'>
+      <div class='logoImg'>
+        <img src='{{item.icon}}'>
+      </div>
+    </div>
+    <div class='itemTitle'>{{item.title}}</div>
+    <div class='itemSubTitle'>{{item.text}}</div>
+  </div>
+</div>
+
+<input type='text' class='email' placeholder='Enter your email'/>
+<button class='subscribeButton'>
+  <div class='subscribeButtonText'>{{ subscribe }}</div>
+</button>
+
+<div class='footer'>
+</div>
