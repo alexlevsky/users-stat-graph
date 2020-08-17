@@ -1,3 +1,16 @@
-<p>
-  users works!
-</p>
+<div class='main'>
+  <div class='header'>
+    <div class='logoText'>{{ logo }}</div>
+  </div>
+  <div class='router'>
+    <div class='routerMain'>{{ main }}</div>
+    <div class='routerArrow'> &#62; </div>
+    <div class='routerStat'>{{ stat }}</div>
+  </div>
+  <div class='statTitle'><b>{{ stat }}</b></div>
+  <div class="usersTable">
+    <ng-container *ngFor="let i of (users$ | async)">
+      <p>i.id</p>
+    </ng-container>
+  </div>
+</div>

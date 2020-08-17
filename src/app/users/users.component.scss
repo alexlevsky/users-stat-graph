@@ -1,0 +1,96 @@
+.main {
+    position: absolute;
+    width: 1440px;
+    height: 900px;
+    left: 0px;
+    top: 0px;
+}
+
+.header {
+    position: relative;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
+    background: #3A80BA;
+}
+
+.logoText {
+    position: relative;
+    width: 136px;
+    height: 49px;
+    left: 130px;
+    top: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.routerMain {
+    display: inline-block;
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #CCCCCC;
+}
+
+.routerArrow {
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    color: #CCCCCC;
+}
+
+.routerStat {
+    display: inline-block;
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    left: 18px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3A80BA;
+}
+
+.router {
+    position: relative;
+    width: 240px;
+    height: 20px;
+    left: 130px;
+    top: 16px;
+}
+
+.statTitle {
+    position: relative;
+    width: 253px;
+    height: 39px;
+    left: 130px;
+    top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1A1A1A;
+}
+
+.usersTable {
+    display: grid;
+    position: relative;
+    left: 130px;
+    top: 36px;
+    width: 1180px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: 48px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+    justify-items: stretch;
+    align-items: stretch;
+ }
